@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+     text-align: center;
+}
+.div1{
+    width: 30vh;
+    height: 30vh;
+    background-color: green;
+
+
+}
+
+@media (max-width:1240px){
+.div{
+    flex-wrap: wrap;
+    background-color:red ;
+    justify-content: space-between;
+}
+.div1{
+    width: 45vh;
+    height: 35vh;
+    background-color: white;
+}
+}
+
+@media (max-width:1070px){
+    .div{
+        flex-wrap: wrap;
+        background-color:rgb(255, 0, 0) ;
+        justify-content: space-between;
+    }
+    .div1{
+        width: 40vh;
+        height: 30vh;
+        background-color: rgb(0, 0, 0);
+    }
+    }
+    @media (max-width:920px){
+        .div{
+            flex-wrap: wrap;
+            background-color: green;
+            justify-content: space-between;
+        }
+        .div1{
+            width: 30vh;
+            height: 30vh;
+            background-color: rgb(0, 76, 255);
+        }
+        }
+        @media (max-width:760px){
+            .div{
+                flex-wrap: wrap;
+                background-color:rgb(132, 0, 255) ;
+                justify-content: center;
+            }
+            .div1{
+                width: 34vh;
+                height: 34vh;
+                background-color: rgb(255, 174, 0);
+            }
+            }
+            @media (max-width:485px){
+                .div{
+                    flex-wrap: wrap;
+                    background-color:rgb(132, 0, 255) ;
+                    justify-content: center;
+                }
+                .div1{
+                    width: 34vh;
+                    height: 34vh;
+                    background-color: rgb(255, 174, 0);
+                }
+                }
